@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+  }
+
+  #app {
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+
+  .left, .right {
+      border: 2px dashed #050505;
+      width: 100%;
+  }
+
+  .left {
+      flex-grow: 2 10px;
+      flex-basis: 100px;
+  }
+  .right {
+    flex-grow: 1;
+    flex-basis: 10px;
+}
